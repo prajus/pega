@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-// Personal token: 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
+// Personal token: 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
 
 public class WebFormTest {
 
