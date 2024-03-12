@@ -78,6 +78,14 @@ public class WebFormTest {
 				 * System.out.println(fileInput.getText());
 				 */
 			    System.out.println(fileInput.getAttribute("value"));
+			    
+			    
+			    driver.get("https://www.selenium.dev/selenium/web/web-form.html");
+			    WebElement browsefile = driver.findElement(By.name("my-file"));
+			    browsefile.sendKeys("C:\\temp\\test.txt");
+			    System.out.println(browsefile.getAttribute("value"));
+			    
+			    
 		} finally {
 			driver.quit();
 
