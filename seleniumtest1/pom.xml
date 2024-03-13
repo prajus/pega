@@ -4,6 +4,17 @@
   <groupId>seleniumtest</groupId>
   <artifactId>seleniumtest1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+  <plugins>
+  <plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-compiler-plugin</artifactId>
+  <version>3.11.0</version>
+  <configuration>
+  <source>14</source>
+  <target>14</target>
+  </configuration>
+  </plugin></plugins></build>
     <dependencies>
   <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
